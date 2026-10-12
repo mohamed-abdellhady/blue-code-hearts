@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE.EXE 💙</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="scene">
+        <div class="status">
+            <span class="dot"></span>
+            LOVE.EXE — RUNNING: i am sorry my girl i love you so much♥️
+        </div>
+
+        <section class="heart-container">
+
+            <svg class="heart-svg" viewBox="0 0 500 440" xmlns="http://www.w3.org/2000/svg">
+
+                <defs>
+                    <path id="heartPath" d="M250 390
+                           C220 365 70 270 70 165
+                           C70 70 190 55 250 140
+                           C310 55 430 70 430 165
+                           C430 270 280 365 250 390 Z" />
+                </defs>
+
+                <use href="#heartPath" class="heart-outline" />
+
+                <text class="orbit-text">
+                    <textPath href="#heartPath">
+                        I LOVE YOU ♥ • I LOVE YOU ♥ • I LOVE YOU ♥ • I LOVE YOU ♥ •
+                        <animate attributeName="startOffset" from="0%" to="100%" dur="12s" repeatCount="indefinite" />
+                    </textPath>
+                </text>
+            </svg>
+
+            <div class="center-message">
+                <span class="label">SYSTEM MESSAGE</span>
+                <h1>I LOVE <span>YOU</span></h1>
+                <p>You're my favorite person <span class="cursor">_</span></p>
+            </div>
+
+        </section>
+
+        <footer>
+            MADE WITH ♥ AND CODE
+        </footer>
+    </main>
+
+</body>
+
+</html>
